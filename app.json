@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Crew",
+    "slug": "crew",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/crew-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/crew-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2f3237"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/crew-logo.png",
+        "backgroundColor": "#2f3237"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
