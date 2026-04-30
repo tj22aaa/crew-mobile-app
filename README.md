@@ -21,7 +21,7 @@ npm install
 npx expo start
 ```
 
-Scan the QR code with Expo Go mobile app on android or iOS or run it on an Android/iOS simulator.
+Scan the QR code with Expo Go mobile app on Android/iOS or run it on an Android/iOS simulator.
 
 ## Supabase Setup
 
@@ -42,11 +42,9 @@ EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-or-anon-key
 
 10. Restart/Reload Expo after editing `.env`.
 
-Note: VS Code shows red lines in `supabase/schema.sql`, check the SQL dialect shown in the bottom bar. Supabase uses PostgreSQL, but VS Code opens the file as MSSQL/T-SQL. The schema should be run inside the Supabase SQL Editor.
-
 ## How Supabase Connects to the App
 
-The Supabase client is created in `src/lib/supabase.js`.
+The Supabase client is created in `src/lib/supabase.js` in VS.
 
 The app uses:
 
